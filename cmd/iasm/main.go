@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/junjiefly/iasm/obj"
-	"github.com/junjiefly/iasm/repl"
-	"github.com/junjiefly/iasm/x86_64"
+	"github.com/chenzhuoyu/iasm/obj"
+	"github.com/chenzhuoyu/iasm/repl"
+	"github.com/chenzhuoyu/iasm/x86_64"
 	"nullprogram.com/x/optparse"
 )
 

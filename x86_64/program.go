@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/bits"
 
-	"github.com/junjiefly/iasm/expr"
+	"github.com/chenzhuoyu/iasm/expr"
 )
 
 type (

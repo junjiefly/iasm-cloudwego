@@ -1,4 +1,4 @@
-module github.com/junjiefly/iasm
+module github.com/chenzhuoyu/iasm
 
 go 1.16
 

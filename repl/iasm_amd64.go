@@ -17,9 +17,9 @@
 package repl
 
 import (
-	`errors`
+	"errors"
 
-	`github.com/junjiefly/iasm/x86_64`
+	"github.com/chenzhuoyu/iasm/x86_64"
 )
 
 type _IASMArchSpecific struct {

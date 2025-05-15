@@ -17,11 +17,11 @@
 package x86_64
 
 import (
-    `bytes`
-    `testing`
+	`bytes`
+	`testing`
 
-    `github.com/davecgh/go-spew/spew`
-    `github.com/junjiefly/iasm/expr`
+	`github.com/chenzhuoyu/iasm/expr`
+	`github.com/davecgh/go-spew/spew`
 )
 
 func TestProgram_Assemble(t *testing.T) {

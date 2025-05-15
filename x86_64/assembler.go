@@ -25,7 +25,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/junjiefly/iasm/expr"
+	"github.com/chenzhuoyu/iasm/expr"
 )
 
 type (

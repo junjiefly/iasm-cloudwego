@@ -20,14 +20,14 @@
 package x86_64
 
 import (
-    `fmt`
-    `os`
-    `os/exec`
-    `testing`
+	`fmt`
+	`os`
+	`os/exec`
+	`testing`
 
-    `github.com/davecgh/go-spew/spew`
-    `github.com/junjiefly/iasm/obj`
-    `github.com/stretchr/testify/require`
+	`github.com/chenzhuoyu/iasm/obj`
+	`github.com/davecgh/go-spew/spew`
+	`github.com/stretchr/testify/require`
 )
 
 func TestAssembler_Assemble(t *testing.T) {
